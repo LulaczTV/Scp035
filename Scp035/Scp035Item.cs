@@ -39,12 +39,12 @@ namespace Scp035
         public override SpawnProperties SpawnProperties { get; set; } = new()
         {
             Limit = 1,
-            DynamicSpawnPoints = new List<DynamicSpawnPoint>
+            LockerSpawnPoints = new List<LockerSpawnPoint>
             {
                 new()
                 {
                     Chance = 35,
-                    Location = SpawnLocationType.InsideLocker,
+                    Type = LockerType.Misc,
                 }
             }
         };
