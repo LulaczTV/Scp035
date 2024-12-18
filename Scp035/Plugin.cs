@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 using System;
 using Exiled.API.Features;
 
