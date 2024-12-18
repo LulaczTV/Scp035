@@ -63,7 +63,7 @@ namespace Scp035
             Log.Debug($"{nameof(OnEndingRound)}: Should event be blocked: {(human && scps)} -- Should round end: {(human && scps)}");
             if (human && scps)
             {
-                ev.IsRoundEnded = false;
+                ev.IsAllowed = false;
             }
         }
     }
