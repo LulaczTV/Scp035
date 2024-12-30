@@ -28,7 +28,7 @@ namespace Scp035
         public override string Prefix { get; } = "Scp035";
 
         /// <inheritdoc />
-        public override Version RequiredExiledVersion { get; } = new(9, 0, 0);
+        public override Version RequiredExiledVersion { get; } = new(9, 1, 1);
 
         /// <summary>
         /// Gets the reference to this plugin's Event Handler class.
