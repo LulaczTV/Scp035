@@ -4,7 +4,7 @@ Adds a passive SCP to the game. A certain amount of items will randomly be selec
 
 # Installation
 
-**[EXILED](https://github.com/galaxy119/EXILED) must be installed for this to work.**
+**[EXILED](https://github.com/ExMod-Team/EXILED) must be installed for this to work.**
 
 Place the "Scp035.dll" file in your Plugins folder.
 
